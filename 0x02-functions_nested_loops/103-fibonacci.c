@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints the even fibonacci less than 4,000, 000
+ * main - prints the even fibonacci less than 4,000,000
  *
  * Return: Always 0 (success)
  */
