@@ -11,7 +11,7 @@ int main(void)
 	int thirdnum;
 	int n = 0;
 
-	for (n = 3; n < 50; n++)
+	for (n = 0; n < 50; n++)
 	{
 		thirdnum = fnum + snum;
 		printf("%d, ", thirdnum);
