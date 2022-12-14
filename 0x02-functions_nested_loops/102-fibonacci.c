@@ -17,4 +17,5 @@ int main(void)
 		snum = thirdnum;
 		printf("%d, ", thirdnum);
 	}
+	return (0);
 }
