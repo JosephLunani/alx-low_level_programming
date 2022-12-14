@@ -11,11 +11,11 @@ int main(void)
 	int thirdnum = fnum + snum;
 	int n = 0;
 
-	for (n = 3; n < 50; ++n)
+	for (n = 3; n < 50; n++)
 	{
+		printf("%d, ", thirdnum)
 		fnum = snum;
 		snum = thirdnum;
-		printf("%d, ", thirdnum);
 	}
 	return (0);
 }
