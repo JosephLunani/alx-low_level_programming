@@ -8,12 +8,13 @@
 int main(void)
 {
 	int fnum = 1, snum = 2;
-	int thirdnum = fnum + snum;
+	int thirdnum;
 	int n = 0;
 
 	for (n = 3; n < 50; n++)
 	{
-		printf("%d, ", thirdnum)
+		thirdnum = fnum + snum;
+		printf("%d, ", thirdnum);
 		fnum = snum;
 		snum = thirdnum;
 	}
