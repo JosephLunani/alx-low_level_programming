@@ -16,9 +16,12 @@ int main(void)
 		thirdnum = fnum + snum;
 		fnum = snum;
 		snum = thirdnum;
-		if
-			(thirdnum / 2 == 0)
-				total = total + thirdnum;
-				printf("%d\n", total);
+
+		if (thirdnum / 2 == 0)
+		{
+			total = total + thirdnum;
+			printf("%d\n", total);
+		}
 	}
+	return (0);
 }
