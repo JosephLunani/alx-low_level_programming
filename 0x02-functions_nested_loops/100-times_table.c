@@ -2,6 +2,7 @@
 #include <stdlib.h>
 /**
  * print_times_table - prints tables
+ * @n: the number to be use to create table
  */
 void print_times_table(int n)
 {
@@ -15,7 +16,7 @@ void print_times_table(int n)
 	{
 		for (num = 0; num <= n; num++)
 		{
-			_putchar('0');
+			_putchar(' ');
 
 			for (mult = 1 ; mult <= n; mult++)
 			{
