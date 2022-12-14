@@ -9,6 +9,7 @@ int main(void)
 {
 	int fnum = 1, snum = 2;
 	int thirdnum = fnum + snum;
+	int n = 0;
 
 	for (n = 3; n < 50; ++n)
 	{
