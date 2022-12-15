@@ -9,29 +9,29 @@
 
 int main(void)
 {
-	long int n;
-	long int max;
 	long int i;
+	long int j;
+	long int isPrime;
+	long int n = 612852475143;
 
-	n = 612852475143;
-	max = -1;
-
-	while (n % 2 == 0)
+	for (i = 2; i <= n; i++)
 	{
-		max = 2;
-		n /= 2;
-	}
-	for (1 = 3; 1 <= sqrt(n); i = i + 2)
-	{
-		while (n % i == 0)
+		if (n % i == 0)
 		{
-			max = i;
-			n = n / i;
+			isPrime = 1;
+			for (j = 2; j <= i / 2; j++)
+			{
+				if (i % j == 0)
+				{
+					isPrime = 0;
+					break;
+				}
+			}
+			if (isPrime == 1)
+			{
+				printf("%d, ", i);
+			}
 		}
 	}
-	if (n > 2)
-		max = n;
-
-	printf("%ld\n", max);
 	return (0);
 }
