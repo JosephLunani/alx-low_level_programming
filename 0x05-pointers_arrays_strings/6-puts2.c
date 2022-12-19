@@ -8,10 +8,9 @@
 
 void puts2(char *str)
 {
-	int i, x, j;
+	int i, x;
 
 	i = 0;
-	j = 0;
 	while (str[i++])
 	{
 		x++;
